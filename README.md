@@ -36,6 +36,16 @@ Step 3. Per installare pip su Kali (il programma di installazione del pacchetto 
 # 💻 Usage
     cd Anonsec
     python3 anonsec.py
+
+Run som körbart script (rekommenderat från projektroten):
+
+    chmod +x anonsec
+    ./anonsec
+
+Installera globalt (skapar en symbolisk länk i `/usr/local/bin`):
+
+    sudo ln -s "$(pwd)/anonsec" /usr/local/bin/anonsec
+    anonsec
     
 # If u Like the project, leave a star on the repository!
 ![github_logo-602056228](https://github.com/xPloits3c/Revolt/assets/153435050/58620e25-748f-44ea-80a9-fc3797fcfa49)
